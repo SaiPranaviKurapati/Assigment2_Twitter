@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<div>
+    <h1>CREATE TWEET</h1>
+    <form action="/result" method="GET" id="form_id">
+        <label for="tweet_text">Enter your tweet text</label>
+        <textarea name="tweet_text" id="tweet_text"></textarea>
+    <input type="submit" value="Create tweet">
+    </form>
+</div>
+
+<div>
+    <h1>DELETE TWEET</h1>
+    <form action="/result1" method="GET" id="form_id1">
+        <label for="tweet_id">Enter your tweet id</label>
+        <input name="tweet_id" id="tweet_id">
+    <input type="submit" value="delete tweet">
+    </form>
+</div>
+<div>
+    <h1>ADD COMMENTS TO EXISTING TWEET</h1>
+    <form action="/result2" method="GET" id="form_id">
+        <label for="add_comments">Enter your tweet text</label>
+        <textarea name="add_comments" id="add_comments"></textarea>
+        <label for="tweet_id">Enter your tweet id</label>
+        <input name="tweet_id" id="tweet_id">
+    <input type="submit" value="Add comments to a tweet">
+    </form>
+</div>
+</body>
+</html>
